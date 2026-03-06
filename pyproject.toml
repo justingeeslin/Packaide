@@ -9,7 +9,10 @@ description = "Irregular bin packing solver"
 authors = [{name="Justin Geeslin"}]
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "shapely",
+    "svgelements"
+]
 
 [tool.scikit-build]
 cmake.minimum-version = "3.15"
