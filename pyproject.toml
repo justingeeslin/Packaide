@@ -1,5 +1,5 @@
 [build-system]
-requires = ["scikit-build-core", "pybind11", "cmake", "ninja"]
+requires = ["scikit-build-core", "pybind11", "cmake", "ninja", "parameterized"]
 build-backend = "scikit_build_core.build"
 
 [project]
@@ -12,6 +12,7 @@ requires-python = ">=3.8"
 dependencies = [
     "shapely",
     "svgelements",
+    "distutils",
     "parameterized"
 ]
 
