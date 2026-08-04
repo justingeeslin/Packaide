@@ -57,11 +57,6 @@ target_link_libraries(PackaideLib INTERFACE CGAL::CGAL)
 add_subdirectory(src)
 
 # -------------------------------------------------------------------
-#                     Python library installation
-
-add_subdirectory(python)
-
-# -------------------------------------------------------------------
 #                              Tests
 
 enable_testing()
